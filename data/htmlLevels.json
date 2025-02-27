@@ -2,20 +2,20 @@
     "levels": [
         {
             "id": "level1",
-            "title": "Level 1: Fix the HTML",
-            "description": "The following HTML is incorrect. Fix it to proceed.",
+            "title": "Level 1: Fix the HTML TAG",
+            "description": "The following HTMLis incorrect. Fix it to proceed.",
             "initialCode": "<h1>Welcome</h2>",
             "correctCode": "<h1>Welcome</h1>",
-            "language": "HTML"
+            "language": "PYTHON"
         },
         {
             "id": "level2",
             "title": "Level 2: Create a Tag",
-            "description": "Create a Button Using HTML Tag.",
-            "initialCode": "<></>",
+            "description": "Replace the placeholder with the correct tag to create a button displaying 'ACES'.",
+            "initialCode": "<>ACES</>",
             "correctCode": "<button>ACES</button>",
             "language": "HTML"
-        },
+        },        
         {
             "id": "level3",
             "title": "Level 3: Fix the CSS",
@@ -34,11 +34,11 @@
         },
         {
             "id": "level5",
-            "title": "Level 5: Fix the CSS",
-            "description": "The following CSS does not apply margin correctly. Fix it to proceed.",
-            "initialCode": ".box {margin: 20;}",
-            "correctCode": ".box {margin: 20px;}",
+            "title": "Level 5: Fix the CSS Selector",
+            "description": "The CSS selector for direct child elements is incorrect. Fix it to target only immediate paragraph children of the div.",
+            "initialCode": "div p {\n  color: blue;\n  font-weight: bold;\n}",
+            "correctCode": "div >p {\n  color: blue;\n  font-weight: bold;\n}",
             "language": "CSS"
-        }
+          }
     ]
 }
