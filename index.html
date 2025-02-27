@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debugging Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="outer-box">
+        <h1 id="mainTitle">WELCOME</h1>
+        <p id="mainTitle">Choose the option to continue</p>
+
+        <div class="button-container" id="buttonContainer">
+            <button onclick="showLevel1()">HTML CSS DEBUGGING</button>
+            <button onclick="showLevel2()">C C++ DEBUGGING</button>
+            <button onclick="showLevel3()">Python Debugging</button>
+        </div>
+
+        <!-- HTML CSS Debugging Levels -->
+        <div id="htmlLevelsContainer"></div>
+
+        <!-- C and C++ Debugging Levels -->
+        <div id="cLevelsContainer"></div>
+
+        <!-- pythonLevel container  -->
+        <div id="pythonLevelsContainer"></div>
+
+        <div id="win" class="hidden">
+            <h1>Congratulations!</h1>
+            <p>You've completed all levels!</p>
+            <p>Get Your Goodies From The ACES Team !!!!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

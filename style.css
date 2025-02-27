@@ -1,0 +1,127 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image:url('logo-C3Wystdy.png');
+    background-size: 800px;  /* Smaller size */
+    background-repeat: no-repeat;  /* Don't repeat the image */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: -2;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.outer-box {
+    background-color: rgba(28, 28, 28, 0.7);  /* Semi-transparent dark background */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    backdrop-filter: blur(2px);  /* Optional: adds a slight blur effect behind the box */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.level {
+    display: none; /* Initially hidden */
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #333;
+    color: #fff;
+}
+
+#win {
+    color: white;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.timer {
+    background-color: #190404;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#countdown {
+    color: #e74c3c;
+}
+
+.message {
+    text-align: center;
+    padding: 20px;
+    background-color: #161515;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.message h1 {
+    color: #721c24;
+}
+
+.message button {
+    background-color: #eeeeee;
+    color: rgb(120, 31, 31);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.message button:hover {
+    background-color: #c5b5b5;
+}

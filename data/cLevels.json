@@ -1,0 +1,36 @@
+{
+    "levels": [
+      {
+        "id": "clevel1",
+        "title": "Level 1: Fix the C Code",
+        "description": "The following C code has an error. Fix it to proceed.",
+        "initialCode": "#include <stdio.h>\nint main() {\n    printf(\"Hello, World!\")\n    return 0;\n}",
+        "correctCode": "#include <stdio.h>\nint main() {\n    printf(\"Hello, World!\");\n    return 0;\n}",
+        "language": "C"
+      },
+      {
+        "id": "clevel2",
+        "title": "Level 2: Fix the C++ Code",
+        "description": "The following C++ code has an error. Fix it to proceed.",
+        "initialCode": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Hello, World!\" << endl\n    return 0;\n}",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Hello, World!\" << endl;\n    return 0;\n}",
+        "language": "C++"
+      },
+      {
+        "id": "clevel3",
+        "title": "Level 3: Fix the C Code",
+        "description": "The following C program does not compile. Fix it.",
+        "initialCode": "#include <stdio.h>\nint main() {\n    int x = \"10\";\n    printf(\"Value of x is: %d\", x);\n    return 0;\n}",
+        "correctCode": "#include <stdio.h>\nint main() {\n    int x = 10;\n    printf(\"Value of x is: %d\", x);\n    return 0;\n}",
+        "language": "C"
+      },
+      {
+        "id": "clevel4",
+        "title": "Level 4: Fix the C++ Code",
+        "description": "The following C++ program has a logical error. Fix it.",
+        "initialCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5, b = 10;\n    cout << \"Sum is: \" << a - b << endl;\n    return 0;\n}",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5, b = 10;\n    cout << \"Sum is: \" << a + b << endl;\n    return 0;\n}",
+        "language": "C++"
+      }
+    ]
+  }

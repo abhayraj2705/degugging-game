@@ -1,0 +1,44 @@
+{
+    "levels": [
+        {
+            "id": "level1",
+            "title": "Level 1: Fix the HTML",
+            "description": "The following HTML is incorrect. Fix it to proceed.",
+            "initialCode": "<h1>Welcome</h2>",
+            "correctCode": "<h1>Welcome</h1>",
+            "language": "HTML"
+        },
+        {
+            "id": "level2",
+            "title": "Level 2: Create a Tag",
+            "description": "Create a Button Using HTML Tag.",
+            "initialCode": "<></>",
+            "correctCode": "<button>ACES</button>",
+            "language": "HTML"
+        },
+        {
+            "id": "level3",
+            "title": "Level 3: Fix the CSS",
+            "description": "The following CSS does not change the text color to blue. Fix it to proceed.",
+            "initialCode": "h1 { color: \"red\"; }",
+            "correctCode": "h1 { color: blue; }",
+            "language": "CSS"
+        },
+        {
+            "id": "level4",
+            "title": "Level 4: Fix the CSS",
+            "description": "This text should be 20px in size.",
+            "initialCode": "p {font-size: 20;}",
+            "correctCode": "p {font-size: 20px;}",
+            "language": "CSS"
+        },
+        {
+            "id": "level5",
+            "title": "Level 5: Fix the CSS",
+            "description": "The following CSS does not apply margin correctly. Fix it to proceed.",
+            "initialCode": ".box {margin: 20;}",
+            "correctCode": ".box {margin: 20px;}",
+            "language": "CSS"
+        }
+    ]
+}
