@@ -1,44 +1,46 @@
 {
     "levels": [
         {
-            "id": "pythonLevel1",
-            "title": "Level 1: Fix the Python Syntax",
-            "description": "The following Python code has a syntax error. Fix it to proceed.",
-            "initialCode": "print('Hello World'",
+            "id": "level1",
+            "title": "Level 1: Fix the PYTHON",
+            "description": "The following PYTHON is incorrect. Fix it to proceed.",
+            "initialCode": "print('Hello World)",
             "correctCode": "print('Hello World')",
-            "language": "Python"
+            "language": "PYTHON"
         },
         {
-            "id": "pythonLevel2",
-            "title": "Level 2: Fix the Function",
-            "description": "This function should return the sum of two numbers. Fix it.",
-            "initialCode": "def add(a, b)\n    return a - b",
-            "correctCode": "def add(a, b):\n   return a + b",
-            "language": "Python"
+            "id": "level2",
+            "title": "Level 2: Fix the PYTHON",
+            "description": "The following PYTHON is incorrect. Fix it to proceed.",
+            "initialCode": "my_var = 1 \n print(my_vAr)",
+            "correctCode": "my_var = 1 \n print(my_var)",
+            "language": "PYTHON"
         },
         {
-            "id": "pythonLevel3",
-            "title": "Level 3: Fix the Loop",
-            "description": "This for loop should print numbers from 1 to 5. Fix it to proceed.",
-            "initialCode": "for i in range(5)\n      print(i)",
-            "correctCode": "for i in range(1, 6):\n  print(i)",
-            "language": "Python"
+            "id": "level3",
+            "title": "Level 3: Complete the for loop",
+            "description": "The following PYTHON code is incomplete. Fix the for loop to print numbers from 1 to 5.",
+            "initialCode": "for i in range():\n    print(i)",
+            "correctCode": "for i in range(1,6):\n    print(i)",
+            "language": "PYTHON"
         },
         {
-            "id": "pythonLevel4",
-            "title": "Level 4: Fix the Conditional",
-            "description": "The following if statement should check if a number is greater than 10. Fix it.",
-            "initialCode": "if x > 10\n    print('Greater than 10')",
-            "correctCode": "if x > 10:\n    print('Greater than 10')",
-            "language": "Python"
+            "id": "level4",
+            "title": "Level 4: Fix the Indentation",
+            "description": "The following Python code has incorrect indentation and a syntax error. Fix it to proceed.",
+            "initialCode": " if x > 5 \n print(\"x is greater than 5\")",
+            "correctCode": "if x > 5: \n    print(\"x is greater than 5\")",
+            "language": "PYTHON"
         },
+        
         {
-            "id": "pythonLevel5",
-            "title": "Level 5: Fix the List Operation",
-            "description": "The following code should append an item to a list. Fix it to proceed.",
-            "initialCode": "my_list = [1, 2, 3]\nmy_list.add(4)",
-            "correctCode": "my_list = [1, 2, 3]\nmy_list.append(4)",
-            "language": "Python"
+            "id": "level5",
+            "title": "Level 5: Fix the indentation of syntax",
+            "description": "The following PYTHON code has a type error due to incorrect string concatenation. Fix it to proceed.",
+            "initialCode": "print(\"The value is: \" + 5)",
+            "correctCode": "print(\"The value is: \" + str(5))",
+            "language": "PYTHON"
         }
+        
     ]
 }
