@@ -10,11 +10,11 @@
       },
       {
         "id": "clevel2",
-        "title": "Level 2: Fix the C++ Code",
-        "description": "The following C++ code has an error. Fix it to proceed.",
-        "initialCode": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Hello, World!\" << endl\n    return 0;\n}",
-        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"Hello, World!\" << endl;\n    return 0;\n}",
-        "language": "C++"
+        "title": "Level 1: Fix the C Variable Declaration",
+        "description": "The following C program has a syntax error in variable declaration. Fix it.",
+        "initialCode": "#include <stdio.h>\nint main() {\n    int 1num = 10;\n    printf(\"The value is: %d\\n\", 1num);\n    return 0;\n}",
+        "correctCode": "#include <stdio.h>\nint main() {\n    int num1 = 10;\n    printf(\"The value is: %d\\n\", num1);\n    return 0;\n}",
+        "language": "C"
       },
       {
         "id": "clevel3",
@@ -30,6 +30,15 @@
         "description": "The following C++ program has a logical error. Fix it.",
         "initialCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5, b = 10;\n    cout << \"Sum is: \" << a - b << endl;\n    return 0;\n}",
         "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int a = 5, b = 10;\n    cout << \"Sum is: \" << a + b << endl;\n    return 0;\n}",
+        "language": "C++"
+      },
+
+      {
+        "id": "clevel5",
+        "title": "Level 5: Fix the C++ For Loop",
+        "description": "The following C++ program has a syntax error in the for loop. Find and fix it.",
+        "initialCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int sum = 0;\n    for(int i = 0; i < 10, i++) {\n        sum += i;\n    }\n    cout << \"Sum of numbers from 0 to 9 is: \" << sum << endl;\n    return 0;\n}",
+        "correctCode": "#include <iostream>\nusing namespace std;\nint main() {\n    int sum = 0;\n    for(int i = 0; i < 10; i++) {\n        sum += i;\n    }\n    cout << \"Sum of numbers from 0 to 9 is: \" << sum << endl;\n    return 0;\n}",
         "language": "C++"
       }
     ]
