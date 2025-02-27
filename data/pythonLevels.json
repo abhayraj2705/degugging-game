@@ -26,10 +26,10 @@
         },
         {
             "id": "level4",
-            "title": "Level 4: Fix the Indentation",
-            "description": "The following Python code has incorrect indentation and a syntax error. Fix it to proceed.",
-            "initialCode": " if x > 5 \n print(\"x is greater than 5\")",
-            "correctCode": "if x > 5: \n    print(\"x is greater than 5\")",
+            "title": "Level 4: Fix the Syntax Error",
+            "description": "The following Python code has a syntax error. Fix it to proceed.",
+            "initialCode": "if x > 5\n    print(\"x is large\")",
+            "correctCode": "if x > 5:\n    print(\"x is large\")",
             "language": "PYTHON"
         },
         
